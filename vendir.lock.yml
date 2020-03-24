@@ -18,6 +18,10 @@ directories:
       sha: 8ec400d0d457862b78a19a59322c439ef51835e9
     path: github.com/cloudfoundry/cf-k8s-logging
   - git:
+      commitTitle: Refactor cert/ca keys...
+      sha: 0c85f22929890f75223219cc092edba9561403b6
+    path: github.com/cloudfoundry/metric-proxy
+  - git:
       commitTitle: Reduce the number of env vars used by UAA...
       sha: 1c19ffc2697441824d2e98e31210a82e1fbc0ac1
     path: github.com/cloudfoundry/uaa
