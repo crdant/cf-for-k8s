@@ -8,9 +8,6 @@
 system_domain: #@ data.values.system_domain
 system_namespace: #@ data.values.system_namespace
 
-images:
-  metric_proxy: #@ data.values.images.metric_proxy
-
 metric_proxy:
   ca:
     secret_name: "metric-proxy-ca"
